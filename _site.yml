@@ -1,5 +1,5 @@
 name: "my-website"
-exclude: [ "*.html"]
+output_dir:  "." 
 navbar:
   title: "My Website"
   left:
