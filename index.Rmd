@@ -1,9 +1,11 @@
 ---
-title: "My Website"
 ---
 
-Hello, Website!
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+<link rel="stylesheet" href="styles.css" type="text/css">
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+<img src="images/BICEPS.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+My passion is using data to show quantatively how things work wether it be in the realm of prediction or descriptive. Data should be used in a way that it will show relationships previously unknown or prove relationships that were previously assumed. I am an avid R user and do most of my programming in that langauge with knowledge of many others. I enjoy using docker/kubernetes to deploy web applications using a R backend(shiny/plumber). 
+
+I graduated from the University of North Dakota with an MS in Applied Economics in 2019 and am currently a data scientist at IBM in the finance department.
