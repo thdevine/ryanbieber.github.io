@@ -12,17 +12,19 @@
 
 
 
-<title>My Website</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -69,6 +71,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -103,33 +106,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 64px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 69px;
+  margin-top: -69px;
 }
 .dropdown-submenu {
   position: relative;
@@ -267,7 +270,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Ryan J. Bieber</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -275,11 +278,46 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="datascience.html">Data Science Projects</a>
+</li>
+<li>
+  <a href="packages.html">Packages/Apps</a>
+</li>
+<li>
+  <a href="training.html">Training</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/ryanbieber">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.instagram.com/ryeceps/">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/ryan-bieber-753159119/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://photos.google.com/share/AF1QipOQunIH8Q9DDcXwcCRILVPMVvnYdlslvgfMgYnE7Kr5nbKJYdMWtJfFq6KRqhR7RQ?key=U0hqNTBLVFptSWVyOTFhNEYxQ2MwaFp3S3F2d3B3">
+    <span class="fa fa-camera fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -289,14 +327,15 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
 
 </div>
 
 
-<p>Hello, Website!</p>
-<p>For more information about simple R Markdown websites, please read the documentation at <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html" class="uri">https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html</a>.</p>
-<p>Please also note that simple R Markdown sites are <em>not</em> based on <strong>blogdown</strong>. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use <strong>blogdown</strong> instead: <a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a>.</p>
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p><img src="images/BICEPS.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left"></p>
+<p>My passion is using data to show how things work whether it be in the realm of predicting, forecasting, descriptive, or visulizations. Data should be used in a way that will show relationships previously unknown or prove relationships that were previously assumed. I am an avid R user and do most of my programming in that langauge with knowledge of many others. Using docker images that contain solutions using R as a backend environment are fairly new and extermely fun to work on. R has the ability, much like python, to deploy into clusters using <a href="https://www.rplumber.io/">plumber</a> as a REST API or <a href="https://shiny.rstudio.com/">shiny</a> as a web application. It is possible to have an entire web application be built in just R(with mayber a little html/js). Besides these, I love time-series and machine learning problems that really challenege how I think about a topic.</p>
+<p>I graduated from the University of North Dakota with an MS in Applied Economics in 2019 and am currently a data scientist at IBM in the finance department.</p>
+<p>Besides spending my weekends programming, I love to spend time with my cat Arthas(click on the camera icon top right) and also train for strongman competitions(Instagram is my training log).</p>
 
 
 
