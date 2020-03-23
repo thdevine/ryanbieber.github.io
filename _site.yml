@@ -16,7 +16,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: contacts.html
     - icon: fa-github fa-lg
-      href: http://github.com/ryanbieber
+      href: https://github.com/ryanbieber
     - icon: fa-instagram fa-lg
       href: https://www.instagram.com/ryeceps/
     - icon: fa-linkedin fa-lg
