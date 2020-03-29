@@ -12,3 +12,5 @@
 - [Caloric Expenditure](https://ryanbieber.shinyapps.io/BMR_Calc/) This shiny app will calculate how long it will take you to lose/gain weight based on your current caloric deficit/surplus and activity. It also takes into account how lean you are, among other factors, to give you a [Basal Metabolic Rate](https://en.wikipedia.org/wiki/Basal_metabolic_rate). 
 
 - [Distance to Fazoils](https://ryanbieber.shinyapps.io/Distance_to_Fazolis/) This shiny instance was more of a joke between my friends and I about how I use Fazoils as the origin to my cartesian coordinate system. For those of you unaware, Fazoils is a fast food italian place that serves pretty decent italian food.
+
+- [Social Distancing Example](https://bigthick.shinyapps.io/Social_distancing/) This shiny app was based on the SIR model to look at how social distancing works in a simple example and also how epidemics work in this classical example.
