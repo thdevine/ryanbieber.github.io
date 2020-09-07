@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/BICEPS.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/ryan_bieber.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 My passion is using data to show how things work whether it be in the realm of predicting, forecasting, descriptive, or visualizations. Data should be used in a way that will show relationships previously unknown or prove relationships that were previously assumed. I am an avid R user and do most of my programming in that language with knowledge of many others. Using docker images that contain solutions using R as a backend environment are fairly new and extremely fun to work on. R has the ability, much like python, to deploy into clusters using [plumber](https://www.rplumber.io/) as a REST API or [shiny](https://shiny.rstudio.com/) as a web application. It is possible to have an entire web application be built in just R(with maybe a little html/js). Besides these, I love time-series and machine learning problems that really challenge how I think about a topic. 
 
