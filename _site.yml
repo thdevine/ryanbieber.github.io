@@ -19,12 +19,9 @@ navbar:
       href: contacts.html
     - icon: fa-github fa-lg
       href: https://github.com/ryanbieber
-    - icon: fa-instagram fa-lg
-      href: https://www.instagram.com/ryan_bieber/
     - icon: fa-linkedin fa-lg
       href: www.linkedin.com/in/ryan-bieber
-    - icon: fa-camera fa-lg
-      href: https://photos.google.com/share/AF1QipOQunIH8Q9DDcXwcCRILVPMVvnYdlslvgfMgYnE7Kr5nbKJYdMWtJfFq6KRqhR7RQ?key=U0hqNTBLVFptSWVyOTFhNEYxQ2MwaFp3S3F2d3B3
+
 output:
   html_document:
     theme: paper
