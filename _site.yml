@@ -1,14 +1,11 @@
 name: "Ryan J. Bieber"
 output_dir:  "." 
 navbar:
-  title: "Ryan J. Bieber"
   left:
     - text: "Home"
       href: index.html
     - text: "Data Science Projects"
       href: datascience.html
-    - text: "Packages/Apps"
-      href: packages.html
     - text: "Training"
       href: training.html
     - text: "Resume"
