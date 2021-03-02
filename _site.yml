@@ -1,4 +1,4 @@
-name: "Thomas Devine"
+name: "Ryan J. Bieber"
 output_dir:  "." 
 navbar:
   left:
@@ -6,18 +6,18 @@ navbar:
       href: index.html
     - text: "Data Science Projects"
       href: datascience.html
-#     - text: "Training"
-#       href: training.html
-#     - text: "Resume"
-#       href: Resume_Ryan_Bieber.docx
+     - text: "Training"
+       href: training.html
+     - text: "Resume"
+       href: Resume_Ryan_Bieber.docx
 
   right:
     - icon: fa-envelope fa-lg
       href: contacts.html
     - icon: fa-github fa-lg
-      href: https://github.com/thdevine
+      href: https://github.com/ryan-bieber
     - icon: fa-linkedin fa-lg
-      href: www.linkedin.com/in/thdevine
+      href: www.linkedin.com/in/ryan-bieber
 
 output:
   html_document:
